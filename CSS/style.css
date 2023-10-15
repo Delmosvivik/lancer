@@ -1,0 +1,52 @@
+html,
+body{
+    height: 100%;
+}
+body{
+    margin: 0;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+}
+.inner{
+    background-color: aqua;
+    margin: 15px;
+    border-radius: 15px;
+    width: 300px;
+    font-size: 50px;
+    text-align: center;
+}
+.block{
+    background-color: chartreuse;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    transform: rotate(62deg);
+}
+.block2{
+    background-color: blue;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    transform: scaleX(1.5) scaleY(0.5);
+}
+.block3{
+    background-color: red;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    transform: translate(-80px, 40px);
+}
+.block4{
+    background-color: yellow;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+    transition: 1s ease,
+    width 1s linear 1.5s;
+}
+.block4:hover{
+    transform: rotate(720deg);
+    width: 300px;
+}
